@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 88          # hoặc 100 nếu bạn thích
+target-version = "py312"  # thay bằng phiên bản Python của bạn
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "Q"]   # các rule bạn muốn
+ignore = ["E501"]                         # ignore line too long vì format sẽ xử lý
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false

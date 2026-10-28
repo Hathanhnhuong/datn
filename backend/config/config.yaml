@@ -1,0 +1,17 @@
+model:
+  path: "D:\AI_DATN\backend\trained_models\mobilenet_v2_skin_best.keras"
+  input_size: 224
+  confidence_threshold: 0.6
+
+classes:
+  - mel
+  - nv
+
+api:
+  prefix: /api/v1
+  title: API Chẩn đoán Bệnh Da liễu
+  description: Dự đoán bệnh da từ ảnh bằng MobileNetV2
+  version: 0.1.0
+
+logging:
+  level: INFO

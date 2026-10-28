@@ -1,0 +1,6 @@
+{
+    "test_accuracy": 0.7623318433761597,
+    "test_recall": 0.7623318433761597,
+    "best_val_recall": 0.7713004350662231,
+    "best_val_accuracy": 0.7713004350662231
+}

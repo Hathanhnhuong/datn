@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+*.env
+
+# Dữ liệu lớn
+data/raw/
+data/processed/
+trained_models/*
+!trained_models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
+//venv\Scripts\activate bat venv
+//uvicorn src.main:app --reload --port 8000 chay du an
+//{
+  "email": "admin@test.com",
+  "password": "123456"
+}
